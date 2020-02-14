@@ -1,0 +1,32 @@
+.test:visited {
+  color: white !important;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.test {
+  color: white !important;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.container {
+  width: 100%;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.marginTop {
+  padding-top: 100px;
+}
+.error {
+  color: red;
+}

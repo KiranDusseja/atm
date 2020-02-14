@@ -1,0 +1,31 @@
+{
+  "name": "atm",
+  "version": "1.0.0",
+  "description": "ATM banking online, somehow.",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "author": "Andreas Jacobsen, Kristian Munter Simonsen",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "cors": "^2.8.4",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.1",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0",
+    "node-fetch": "^2.2.0",
+    "nodemon": "^1.18.4",
+    "prettier": "^1.14.3"
+  }
+}
