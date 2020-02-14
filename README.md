@@ -6,7 +6,7 @@ All interaction between back end and front end is done via API calls.
 
 ### Notice
 
-This project was done as part of a coding test, it is in not secure or robust enough to use in _any_ production enviourment.
+This project was done as part of a coding test, it is not secure or robust enough to use in _any_ production environment.
 
 ## Installation
 
